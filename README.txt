@@ -6,3 +6,6 @@ python traccion_compresion_sim.py
 
 ###Modo compresión
 Para hacer un ensayo de compresión, el indicar la fuerza, esta tiene que ser negativa
+
+####Fijación de la pieza
+Fijación de la probeta FULL CONSTRAINT
