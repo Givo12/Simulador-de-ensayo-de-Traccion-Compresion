@@ -3,3 +3,6 @@ Script de consola que calcula sección, tensión, deformación, alargamiento y r
 
 ## Ejecutar
 python traccion_compresion_sim.py
+
+###Modo compresión
+Para hacer un ensayo de compresión, el indicar la fuerza, esta tiene que ser negativa
