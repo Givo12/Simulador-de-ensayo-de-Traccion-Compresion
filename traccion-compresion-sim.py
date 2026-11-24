@@ -15,6 +15,11 @@ if T_r <= T_e:
     print(f"EL LÍMITE DE ROTURA NO PUEDE SER MENOR AL LÍMITE ELÁSTICO")
     print("--------")
 
+elif D <= 0:
+    print("--------")
+    print(f"EL DIÁMETRO NO PUEDE SER MENOR O IGUAL A 0")
+    print("--------")
+
 else:
     #CALCULOS
     def calcular_probeta(D, Lo, F, E):
@@ -30,7 +35,7 @@ else:
     print("--------")
 
     print(f"S = {S} mm^2")
-    print(f"Tensión = {T} MPa")
+    print(f"Tensión = {abs(T)} MPa")
     print(f"Deformación = {e}")
     print(f"Alargamiento ZZ max = {delta} mm")
     print(f"Rigidez de la barra = {k} N/mm")
